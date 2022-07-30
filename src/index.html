@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Timer</title>
+    <style>
+      #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 70px;
+      }
+      #title {
+        font-size: 50px;
+        text-align: center;
+      }
+      #timer-wrap {
+        display: flex;
+      }
+      #btn-Minus,
+      #btn-Plus {
+        width: 50px;
+        height: 35px;
+      }
+      #time {
+        text-align: center;
+        font-size: 30px;
+        width: 100px;
+        height: 40px;
+        margin: 15px;
+      }
+      #btn-start {
+        width: 100px;
+        height: 55px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <p id="title">TIMER</p>
+      <div id="timer-wrap">
+        <button id="btn-Plus">+</button>
+        <p id="time">0</p>
+        <button id="btn-Minus">-</button>
+      </div>
+      <button id="btn-start">START</button>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
